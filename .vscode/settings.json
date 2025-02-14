@@ -1,0 +1,70 @@
+{
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - Page",
+    "**/app/**/layout.tsx": "${dirname} - layout"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+
+  // "editor.formatOnSave": true,
+
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll": "always",
+  //   "source.organizeImports": "always",
+  //   "source.fixAll.eslint": "always"
+  // },
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+
+  // File Settings
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.husky": true
+  },
+
+  // TailwindCSS IntelliSense
+  "tailwindCSS.includeLanguages": {
+    "typescript": "html",
+    "typescriptreact": "html",
+    "javascript": "html",
+    "javascriptreact": "html"
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+
+  // TypeScript Settings
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  // "eslint.format.enable": true,
+
+  // Snippets Configuration
+  "editor.snippetSuggestions": "inline",
+
+  // Search Settings
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.husky": true
+  },
+
+  // Breadcrumbs
+  "breadcrumbs.enabled": true,
+
+  // Terminal
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}

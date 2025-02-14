@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // ESLint
+    "esbenp.prettier-vscode", // Prettier
+    "bradlc.vscode-tailwindcss", // TailwindCSS IntelliSense
+    "eamodio.gitlens", // GitLens for Git integration
+    "yoavbls.pretty-ts-errors", // Pretty TypeScript Errors (Optional)
+    "GitHub.vscode-pull-request-github",
+    "ygqygq2.turbo-print-log",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
